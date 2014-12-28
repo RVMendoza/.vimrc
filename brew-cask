@@ -5,6 +5,7 @@ https://github.com/bpinto/oh-my-fish
 Install homebrew
 
 brew cask install node
+brew cask install google-chrome
 brew cask install chromecast
 brew cask install google-chrome
 brew cask install spotify
@@ -16,6 +17,8 @@ brew cask install licecap
 brew cask install sketch
 brew cask install ynab
 brew cask install rescuetime
+brew cask install dropbox
+
 
 
 
