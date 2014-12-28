@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'kien/ctrlp.vim'
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/.tmp/*,*/.sass-cache/*,*/node_modules/*,*/build/*,*/bower_components/*,*.keep,*.DS_Store,*/.git/
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/.tmp/*,*/.sass-cache/*,*/node_modules/*,*/build/*,*/bower_components/*,*.keep,*.DS_Store,*/.git/,/build/*
 Plugin 'othree/html5.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'mxw/vim-jsx'
