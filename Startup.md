@@ -1,8 +1,19 @@
+Install Homebrew
+http://brew.sh/
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+
+Install Fish terminal
 http://fishshell.com/
+brew install fish
 
+Install Oh My Fish
 https://github.com/bpinto/oh-my-fish
+curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
 
-Install homebrew
+Install Brew Cask
+http://caskroom.io/
+brew install caskroom/cask/brew-cask
 
 brew cask install node
 brew cask install google-chrome
