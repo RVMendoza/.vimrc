@@ -32,24 +32,26 @@ brew cask install firefox
 brew cask install lastpass
 brew cask install evernote
 brew cask install iterm2
-
 brew cask install spotifree
 brew cask install spotify
 brew cask install adium
-
-brew cask install licecap
-brew cask install sketch
-brew cask install ynab
-brew cask install rescuetime
 brew cask install dropbox
 brew cask install mailbox
+brew cask install ynab
+brew cask install licecap
+brew cask install rescuetime
 brew cask install vlc
 brew cask install skype
 brew cask install selfcontrol
+
+(might already be installed through the app store)
+brew cask install sketch
+sunrise
 
 https://fiplab.com/apps/memory-clean-for-mac
 
 
 
-sunrise
+Need to Install Manually
+Logic X
 CS6
