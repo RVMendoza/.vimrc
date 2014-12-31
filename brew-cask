@@ -7,12 +7,15 @@ Install homebrew
 brew cask install node
 brew cask install google-chrome
 brew cask install chromecast
-brew cask install google-chrome
-brew cask install spotify
-brew cask install spotifree
-brew cask install adium
-brew cask install iterm2
+brew cask install firefox
+brew cask install lastpass
 brew cask install evernote
+brew cask install iterm2
+
+brew cask install spotifree
+brew cask install spotify
+brew cask install adium
+
 brew cask install licecap
 brew cask install sketch
 brew cask install ynab
