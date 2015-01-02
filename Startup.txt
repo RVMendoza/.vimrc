@@ -43,6 +43,8 @@ brew cask install rescuetime
 brew cask install vlc
 brew cask install skype
 brew cask install selfcontrol
+brew cask install alfred
+make sure to add the cask homebrew folder into it's search scope so it can fine these apps!
 
 (might already be installed through the app store)
 brew cask install sketch
