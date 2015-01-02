@@ -49,6 +49,7 @@ make sure to add the cask homebrew folder into it's search scope so it can fine 
 (might already be installed through the app store)
 brew cask install sketch
 sunrise
+screen saver - Today http://www.gingerbeardman.com/today/
 
 https://fiplab.com/apps/memory-clean-for-mac
 
