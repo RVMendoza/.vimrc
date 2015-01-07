@@ -13,6 +13,9 @@ Install Fish terminal
 http://fishshell.com/
 brew install fish
 
+Update VIM
+brew install vim
+
 Install Oh My Fish
 https://github.com/bpinto/oh-my-fish
 curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
