@@ -18,8 +18,9 @@ https://github.com/bpinto/oh-my-fish
 curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
 make fish default
 type 'fish_config' and choose your theme
-make a function.fish file and make sure config.fish knows it exists:
+make a config.fish file and make sure config.fish knows it exists:
 $fish_path/function.fish
+config.fish is stored in ~/.config/fish/config.fish
 
 source it right after
 source /Users/rvmendoza/.config/fish/config.fish
