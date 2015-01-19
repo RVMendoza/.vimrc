@@ -55,6 +55,7 @@ brew cask install keyboard-cleaner
 brew cask install plex-media-server
 brew cask install sketch
 brew cask install sketch-toolbox
+brew cask install virtualbox
 make sure to add the cask homebrew folder into it's search scope so it can fine these apps!
 
 (might already be installed through the app store)
