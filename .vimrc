@@ -42,6 +42,25 @@ let g:airline_right_sep = ''
 
 Plugin 'editorconfig/editorconfig-vim'
 
+"folding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set foldlevel=1         "this is just what i use
+
+"Folding
+function! JavaScriptFold()
+    setl foldmethod=syntax
+    setl foldlevelstart=1
+    syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
+
+    function! FoldText()
+        return substitute(getline(v:foldstart), '{.*', '{...}', '')
+    endfunction
+    setl foldtext=FoldText()
+endfunction
+au FileType javascript call JavaScriptFold()
+au FileType javascript setl fen
+
 "Enabling mouse
 set mouse=a
 
