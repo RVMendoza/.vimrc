@@ -1,19 +1,25 @@
 set encoding=utf-8
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
+filetype off  
 
-" set the runtime path to include Vundle and initialize
+" VUNDLE CONFIG
+"""""""""""""""
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+
+" PLUGINS
+"""""""""""""""
 Plugin 'hail2u/vim-css3-syntax'
+
 Plugin 'kien/ctrlp.vim'
 " ignore certain files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/.tmp/*,*/.sass-cache/*,*/node_modules/*,*/build/*,*/bower_components/*,*.keep,*.DS_Store,*/.git/,/build/*
+
 "clear the cache before opening up
 nnoremap <silent> <leader>p :ClearCtrlPCache<cr>\|:CtrlP<cr>
 
@@ -24,12 +30,16 @@ Plugin 'tpope/vim-surround'
 Plugin 'rking/ag.vim'
 Plugin 'Align'
 Plugin 'scrooloose/syntastic'
+
+"comment things out easicly. leader cm and leader cu
 Plugin 'scrooloose/nerdcommenter'
+
 Plugin 'bling/vim-airline'
 set laststatus=2
 let g:airline_theme= 'solarized'
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
+
 Plugin 'editorconfig/editorconfig-vim'
 
 "Enabling mouse
@@ -100,6 +110,11 @@ set gdefault
 "search as I type
 set incsearch
 
-"put swap files in a separate location
-set backupdir=~/.tmp
-set directory=~/.tmp
+"set backup directories
+set backupdir=./.backup,.,/tmp
+set directory=.,./.backup,/tmp
+
+"Navigate Buffers w/ leader
+noremap <leader>z :bprev!<CR>
+noremap <leader>x :bnext!<CR>
+noremap <leader>d :confirm bd<CR>
