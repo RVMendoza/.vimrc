@@ -99,3 +99,7 @@ set gdefault
 
 "search as I type
 set incsearch
+
+"put swap files in a separate location
+set backupdir=~/.tmp
+set directory=~/.tmp
