@@ -16,6 +16,9 @@ brew install fish
 Update VIM
 brew install vim
 
+install vundle
+https://github.com/VundleVim/Vundle.vim
+
 Mackup - keeps all your config files across computers
 https://github.com/lra/mackup
 
