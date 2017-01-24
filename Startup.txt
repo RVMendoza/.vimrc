@@ -38,37 +38,30 @@ Install Brew Cask
 http://caskroom.io/
 brew install caskroom/cask/brew-cask
 
-brew cask install node
 brew cask install google-chrome
 brew cask install chromecast
 brew cask install firefox
 brew cask install lastpass
 brew cask install evernote
 brew cask install iterm2
-brew cask install spotifree
 brew cask install spotify
-brew cask install adium
 brew cask install dropbox
-brew cask install mailbox
-brew cask install ynab
 brew cask install licecap
 brew cask install rescuetime
 brew cask install vlc
-brew cask install skype
-brew cask install selfcontrol
 brew cask install alfred
 brew cask install keyboard-cleaner
-brew cask install plex-media-server
-brew cask install sketch
-brew cask install sketch-toolbox
 brew cask install virtualbox
 brew cask install caffeine
-make sure to add the cask homebrew folder into it's search scope so it can fine these apps!
+
+make sure to add the cask homebrew folder into it's search scope on alfred so it can fine these apps! (if it needs it)
 
 (might already be installed through the app store)
 brew cask install sketch
 sunrise
 Memory clean - https://fiplab.com/apps/memory-clean-for-mac
+
+https://www.maketecheasier.com/change-screenshot-save-folder-mac/
 
 
 
